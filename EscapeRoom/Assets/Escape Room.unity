@@ -347,7 +347,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282337441}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -367,8 +367,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 1
+  m_Constraints: 10
+  m_CollisionDetection: 0
 --- !u!1 &509176929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186670726686910403, guid: 94067aabe42da0d4593207d261b6f8f6,
@@ -619,7 +619,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!64 &790068421
 MeshCollider:
@@ -932,7 +932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093576748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.77, y: 4.3540516, z: 6.183341}
+  m_LocalPosition: {x: 7.86, y: 4.88, z: 4.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1042,8 +1042,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141843209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.53, y: 2.03, z: 4.39}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.96, y: 2.03, z: 4.64}
+  m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1113,17 +1113,17 @@ PrefabInstance:
     - target: {fileID: -8468264981021677042, guid: 94067aabe42da0d4593207d261b6f8f6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.54
+      value: 5.91
       objectReference: {fileID: 0}
     - target: {fileID: -8468264981021677042, guid: 94067aabe42da0d4593207d261b6f8f6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.83
+      value: 4.96
       objectReference: {fileID: 0}
     - target: {fileID: -8468264981021677042, guid: 94067aabe42da0d4593207d261b6f8f6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.53
+      value: 4.77
       objectReference: {fileID: 0}
     - target: {fileID: -7741193072887546586, guid: 94067aabe42da0d4593207d261b6f8f6,
         type: 3}
