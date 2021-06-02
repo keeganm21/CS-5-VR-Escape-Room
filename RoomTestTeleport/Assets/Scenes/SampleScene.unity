@@ -869,7 +869,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1369992430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3a9cc2dd01a4c459c8d4e751a2539f23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -891,7 +890,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1753430142}
   m_PrefabAsset: {fileID: 0}
-=======
   m_Script: {fileID: 11500000, guid: 30cdca5013104ed49895aa9b438ca07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -968,7 +966,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
->>>>>>> 3531ecea3dc8c7017997f838b210ac5cf65615c2
 --- !u!1 &1462519793
 GameObject:
   m_ObjectHideFlags: 0

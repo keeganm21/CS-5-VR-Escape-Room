@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -27518,6 +27518,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &624180144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039683960394416, guid: 12df8e28906cf439e881f226e6cb25b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1224726404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &624180157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624180144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1bda8e8b7ed4ddc89061e686ee123f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &625132056
 GameObject:
   m_ObjectHideFlags: 0
@@ -55716,6 +55734,11 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2142760690}
+    - target: {fileID: 114109792773804450, guid: 12df8e28906cf439e881f226e6cb25b8,
+        type: 3}
+      propertyPath: teleportStartTrigger
+      value: 
+      objectReference: {fileID: 624180157}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12df8e28906cf439e881f226e6cb25b8, type: 3}
 --- !u!1 &1232536149
